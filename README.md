@@ -4,7 +4,6 @@
 
 
 ## Project Description
----------------------------------------------------------------
 Food Festive Supermarket, a grocery store in Richardson, would like one relational database to store the information about their management system to be able to carry out their work in an organized way. They have some major modules such as Person, Products and Billing.
 
 A Person must be an Employee or a Silver Customer. Details of a person such as ID, Name (First, Middle, Last), Address, Gender, Date of Birth (Must be 16 years or older), and Phone number (one person can have more than one phone number) are recorded. The Person ID should have the format “PXXX” where X is a number from 0 to 9.
@@ -21,13 +20,11 @@ A Gold Customer is someone who has some extra privileges than a Silver Customer.
 Product details such as product ID, Quantity (0,if out of stock), description and other information are stored. Products are further classified as either perishable or non-perishable items. Date of expiry is stored for the perishable items. Various suppliers, whose information are also stored in the system supply products. One Supplier may supply more than one product. But one product is supplied by only one supplier.
 
 ## Project Questions
----------------------------------------------------------------
 1. Is the ability to model superclass/subclass relationships likely to be important in a grocery system environment such as Food Festive? Why or why not?
 2. Can you think of 5 more business rules (other than the one explicitly described above) that are likely to be used in a supermarket environment? Add your rules to the above requirement to be implemented.
 3. Justify using a Relational DBMS like Oracle for this project.
 
 ## Project Exercises
----------------------------------------------------------------
 ### Phase I. 
 Draw an EER to accurately represent this set of requirements. This will be your Conceptual Design. Clearly specify any assumptions that you are making. You can use any tools (software) to draw the EER.
 
