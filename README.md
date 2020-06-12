@@ -1,9 +1,9 @@
 # DataBase-Class-Project
 
-Database Design Term Project
----------------------------------------------------------------
+#Database Design Term Project
 
-Project Description
+
+##Project Description
 ---------------------------------------------------------------
 Food Festive Supermarket, a grocery store in Richardson, would like one relational database to store the information about their management system to be able to carry out their work in an organized way. They have some major modules such as Person, Products and Billing.
 
@@ -20,21 +20,21 @@ A bill transaction is made by a cashier who records the list of products that ar
 A Gold Customer is someone who has some extra privileges than a Silver Customer. A Gold customer can be an Employee or a Non-online Customer or both. Different vouchers are issued by the store. A non-online customer needs to buy these vouchers but vouchers are given to a Gold Customers each month free of cost. Sometimes promotional discounts are offered on the vouchers and details such promotion ID and promotion description are recorded. The Promotional IDs are not unique and cannot be used to identify a promotion in the system. Each Gold Customer is issued a membership card. A unique membership ID is generated for each Gold Customer. This number, date of issue and other information are stored.
 Product details such as product ID, Quantity (0,if out of stock), description and other information are stored. Products are further classified as either perishable or non-perishable items. Date of expiry is stored for the perishable items. Various suppliers, whose information are also stored in the system supply products. One Supplier may supply more than one product. But one product is supplied by only one supplier.
 
-Project Questions
+##Project Questions
 ---------------------------------------------------------------
 1. Is the ability to model superclass/subclass relationships likely to be important in a grocery system environment such as Food Festive? Why or why not?
 2. Can you think of 5 more business rules (other than the one explicitly described above) that are likely to be used in a supermarket environment? Add your rules to the above requirement to be implemented.
 3. Justify using a Relational DBMS like Oracle for this project.
 
-Project Exercises
+##Project Exercises
 ---------------------------------------------------------------
-Phase I. Draw an EER to accurately represent this set of requirements. This will be your Conceptual Design. Clearly specify any assumptions that you are making. You can use any tools (software) to draw the EER.
+###Phase I. Draw an EER to accurately represent this set of requirements. This will be your Conceptual Design. Clearly specify any assumptions that you are making. You can use any tools (software) to draw the EER.
 
-Phase II. It has been decided to use a relational DBMS to implement the database. Perform the following steps.
+###Phase II. It has been decided to use a relational DBMS to implement the database. Perform the following steps.
 a. Convert your Conceptual model (Phase I) to a Logical model that can be implemented in a relational DBMS like Oracle. During this process you replace M-N relationships and multi- valued attributes with constructs that can be implemented in the relational DBMS. Draw EER for the logical model after your modifications. Feel free to change your conceptual model (first delivery) if needed.
 b. Convert the EER (item a) to a database design. Document your design in Database Schema format like the one we discussed in the class.
 
-Phase III. Now, you are ready for implementation. Use appropriate naming conventions for all of your tables and attributes.
+###Phase III. Now, you are ready for implementation. Use appropriate naming conventions for all of your tables and attributes.
 a. Normalize all of your tables to third normal form. Make any necessary changes to the EER from Phase II b. Explain why these changes needed to be made.
 b. Draw a dependency diagram for each table from Phase III a.
 c. Write SQL statements to create database, tables and all other structures. Primary key
@@ -72,7 +72,7 @@ number of purchases in the last year.
   15. Find the date of the transaction that has a bill amount greater than the average
 bill amount of all transactions in the system.
 
-Phase IV. Document the final term project report.
+###Phase IV. Document the final term project report.
 a. Problem description (Copy it from Web site).
 b. Project questions (Answer 3 questions listed in the project, justify your solution).
 c. EER diagram with all assumptions (Solution for Phase II a).
